@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="index.css" />
+  <title>Factorial calculator</title>
+</head>
+
+<body id="bodymain">
+  <div class="topbar" id="topbar">
+    <h1 class="topbartext" id="timeteller">  </h1>
+    <h1 class="topbartext1" id="title"> Better Calculators </h1>
+  </div>
+  
+    <h1 class="text1" id="main-box">
+      Factorial Calculator
+      <div class="box1" id="box1">
+        <input class="Input1" id="InputNumber">
+        </input>
+        <button class="Button1" id="generate" onclick="getValue()">
+          Calculate
+      </button>
+      <h2 class="text2" id="Value"> <br> </h2>
+      <button id="copy1" class="Button1" onclick="CopyText()">copy answer </button>
+    </h1>
+</div>
+<div class="settings-box" id="settings-box">
+  <h1 class="text3"> settings </h1>
+  <button class="RippleEffect" id="BgImg" onclick="Background()"> Background image: enabled</button>
+  <button class="RippleEffect" id="ColorMode" onclick="ColorMode()"> Dark mode</button>
+</div>
+
+<button class="hiddenbtn" onclick="opensettings()">
+  <ion-icon name="settings-outline" class="img1"></ion-icon>
+</button>
+
+  <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

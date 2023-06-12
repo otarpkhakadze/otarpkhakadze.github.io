@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    color: rgb(250, 250, 250);
+    border-color: white;
+}
+body {
+    background: url(Image1.jpg);
+    position: relative;
+    background-position-x: center;
+    background-position-y: -200px;
+    background-size: 2700px;
+}
+.text1{
+    text-align: center;
+    margin-top: 200px;
+}
+.topbartext{
+    font-size: 35px;
+    text-align: right;
+    margin-right: 26px;
+    margin-top: 12px;
+    opacity: 100%;
+}
+.topbartext1{
+    font-size: 35px;
+    text-align: left;
+    margin-left: 26px;
+    margin-top: -52.5px;
+    opacity: 100%;
+}
+.text2{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.Input1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background: transparent;
+    transition: .5s;
+    padding-top: -10px;
+    padding-inline: -30px;
+    border-radius: 7px;
+    border-width: 3.5px;
+    border-color: white;
+    text-align: center;
+    font-size: 25px;
+}
+input:hover{
+    border-color: rgb(220, 110, 0);
+    transition: .5s;
+}
+.Button1{
+    position: relative;
+    overflow: hidden;
+    background: transparent;
+    transition: .5s;
+    font-size: 25px;
+    padding-inline: 15px;
+    border-radius: 8px;
+    border-color: white;
+    border-width: 3.5px;
+    cursor: pointer;
+}
+.Button1:hover{
+    background-color: rgb(220, 110, 0);
+    transition: .5s;
+}
+.box1{
+    margin-top: 15px;
+    margin-left:39%;
+    backdrop-filter: blur(12.5px);
+    width: 450px;
+    border-radius: 15px;
+    border: 2px solid rgba(255,255,255,0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    height: 290px;
+}
+span.ripple {
+    position: absolute;
+    border-radius: 50%;
+    transform: scale(0);
+    animation: ripple 600ms linear;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  
+  @keyframes ripple {
+    to {
+      transform: scale(4);
+      opacity: 0;
+    }
+  }
+.topbar{
+    background: rgb(65,65,65);
+    margin-top: -12px;
+}
+.img1{
+    font-size: 60px;
+    transition: .5s;
+}
+.hiddenbtn{
+    margin-left: 1970px;
+    margin-top: 175px;
+    background: transparent;
+    border: transparent;
+    cursor: pointer;
+    transition: .5s;
+}
+.img1:hover{
+    font-size: 70px;
+    position: absolute;
+    color: rgb(220, 220, 220);
+    transition: .5s;
+}
+.hiddenbtn:hover{
+    margin-left: 1965px;
+    margin-top: 170px;
+    transition: .5s;
+}
+.settings-box{
+    border: 3px solid rgba(255,255,255,0.5);
+    background:rgb(68, 68, 68);
+    margin-top: -350px;
+    margin-left: 36.5%;
+    width: 550px;
+    height: 500px;
+    z-index: 5;
+    border-radius: 15px;
+    position:unset;
+    visibility:hidden;
+}
+.text3{
+    text-align: center;
+    margin-top: 20px;
+}
+.RippleEffect{
+    margin-top: 5px;
+    margin-left: 71px;
+    position: relative;
+    overflow: hidden;
+    background: transparent;
+    transition: .5s;
+    font-size: 25px;
+    padding-inline: 15px;
+    border-radius: 8px;
+    border-color: white;
+    border-width: 3.5px;
+    cursor: pointer;
+}
+.RippleEffect:hover{
+    background-color: rgb(33, 33, 33);
+    transition: .5s;
+}
